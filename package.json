@@ -1,0 +1,38 @@
+{
+  "name": "MailOline",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/jquery": "^3.5.29",
+    "@wdio/allure-reporter": "^8.29.1",
+    "@wdio/appium-service": "^8.29.4",
+    "@wdio/browser-runner": "^8.29.6",
+    "@wdio/cli": "^8.29.3",
+    "@wdio/cucumber-framework": "^8.29.3",
+    "@wdio/devtools-service": "^6.12.1",
+    "@wdio/local-runner": "^8.29.5",
+    "@wdio/mocha-framework": "^8.29.3",
+    "@wdio/spec-reporter": "^8.29.3",
+    "@wdio/sync": "^7.27.0",
+    "appium-uiautomator2-driver": "^2.43.4",
+    "chromedriver": "^121.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-wait-for": "^3.0.10"
+  },
+  "scripts": {
+    "wdio": "wdio run wdio.conf.ts",
+    "wdio-local": "wdio run wdio.conf.ts --localhost"
+  },
+  "dependencies": {
+    "@wdio/types": "^8.3.0",
+    "appium": "^2.4.1",
+    "latest": "^0.2.0",
+    "node-emoji": "^1.11.0",
+    "npm-check-updates": "^16.6.5",
+    "wdio-rerun-service": "^2.0.6",
+    "webdriver": "^8.29.3",
+    "yargs": "^17.6.2"
+  }
+}
